@@ -1,0 +1,86 @@
+body {
+    background-color: #E8EBEA;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: #0F0F12;
+    background-image: url(https://wallpaper.dog/large/10732954.jpg);
+    background-repeat: no-repeat;            
+    background-position: center;              
+    background-size: cover;   
+}  
+label{
+    margin-right: 300px;
+}
+.container {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+   
+    padding: 20px;
+    padding-bottom: 80px;
+    border: 1px solid #4360b9;
+    border-radius: 10px;
+}
+.t1{
+    font-size: 50px;
+    color: rgb(36, 36, 120);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.t2{
+    font-size: 50px;
+   color: rgb(82, 157, 228);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 20px;
+    color: rgb(36, 36, 120);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #B6CACC;
+    border-radius: 5px;
+}
+
+button {
+    width: 65%;
+    padding: 10px;
+    background-color: #3F5899;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #966A5F;
+}
+
+p {
+    font-size: 14px;
+    color: #595F5F;
+    margin: 10px 0 5px;
+}
+
+a {
+    color: #3F5899;
+    text-decoration: none;
+}
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

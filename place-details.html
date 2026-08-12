@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Place Details - GoExplore</title>
+
+    <link
+        rel="stylesheet"
+        href="details.css"
+    >
+
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <a
+            href="index.html"
+            class="logo"
+        >
+            GoExplore
+        </a>
+
+        <a
+            href="javascript:history.back()"
+            class="back"
+        >
+            ← Back
+        </a>
+
+    </header>
+
+    <main class="details-container">
+
+        <section class="place-content">
+
+            <span
+                id="category"
+                class="card-label"
+            >
+                Attraction
+            </span>
+
+            <h1 id="name">
+                Loading...
+            </h1>
+
+            <p id="address">
+                Loading...
+            </p>
+
+            <div class="info-grid">
+
+                <div class="info-card">
+
+                    <h3>Location</h3>
+
+                    <p id="coordinates">
+                        —
+                    </p>
+
+                </div>
+
+                <div class="info-card">
+
+                    <h3>Destination</h3>
+
+                    <p id="city">
+                        —
+                    </p>
+
+                </div>
+
+            </div>
+
+            <a
+                id="mapButton"
+                class="map-btn"
+                target="_blank"
+                rel="noopener"
+            >
+                View on Map
+            </a>
+
+        </section>
+
+    </main>
+
+    <script src="place-details.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Explore City - GoExplore</title>
+
+    <link
+        rel="stylesheet"
+        href="details.css"
+    >
+
+</head>
+
+
+<body>
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            GoExplore
+        </a>
+
+        <a href="index.html" class="back">
+            ← Back
+        </a>
+
+    </header>
+
+
+    <main>
+
+        <section class="city-header">
+
+            <p>Exploring</p>
+
+            <h1 id="cityName">
+                Loading...
+            </h1>
+
+            <p id="cityDescription">
+                Discover famous places and
+                accommodation in this destination.
+            </p>
+
+        </section>
+
+
+        <!-- FAMOUS PLACES -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Famous Places
+                </h2>
+
+                <p>
+                    Explore popular attractions
+                    in this city.
+                </p>
+
+            </div>
+
+
+            <div
+                id="placesContainer"
+                class="cards"
+            >
+            </div>
+
+
+            <p
+                id="placesLoading"
+                class="loading"
+            >
+                Finding famous places...
+            </p>
+
+
+            <p
+                id="placesEmpty"
+                class="empty hidden"
+            >
+                No famous places found.
+            </p>
+
+        </section>
+
+
+        <!-- HOTELS -->
+
+        <section class="section">
+
+            <div class="section-heading">
+
+                <h2>
+                    Hotels
+                </h2>
+
+                <p>
+                    Find places to stay in
+                    this destination.
+                </p>
+
+            </div>
+
+
+            <div
+                id="hotelsContainer"
+                class="cards"
+            >
+            </div>
+
+
+            <p
+                id="hotelsLoading"
+                class="loading"
+            >
+                Finding hotels...
+            </p>
+
+
+            <p
+                id="hotelsEmpty"
+                class="empty hidden"
+            >
+                No hotels found.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 GoExplore
+        </p>
+
+        <p>
+            Places data © OpenStreetMap contributors
+            · Powered by Geoapify
+        </p>
+
+    </footer>
+
+
+    <script src="details.js"></script>
+
+</body>
+
+</html>

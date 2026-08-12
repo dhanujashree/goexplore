@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+
+    background: #f8fafc;
+
+    color: #0f172a;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    height: 75px;
+
+    background: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 8%;
+
+    border-bottom:
+        1px solid #e2e8f0;
+}
+
+
+.logo {
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-size: 25px;
+
+    font-weight: 700;
+}
+
+
+.back {
+
+    color: #475569;
+
+    text-decoration: none;
+}
+
+
+/* CITY HEADER */
+
+.city-header {
+
+    text-align: center;
+
+    padding: 80px 20px 60px;
+}
+
+
+.city-header p:first-child {
+
+    color: #2563eb;
+
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+
+.city-header h1 {
+
+    font-size: 52px;
+
+    margin-bottom: 15px;
+}
+
+
+.city-header p:last-child {
+
+    color: #64748b;
+
+    font-size: 18px;
+}
+
+
+/* SECTION */
+
+.section {
+
+    max-width: 1200px;
+
+    margin: 0 auto 80px;
+
+    padding: 0 25px;
+}
+
+
+.section-heading {
+
+    margin-bottom: 30px;
+}
+
+
+.section-heading h2 {
+
+    font-size: 32px;
+
+    margin-bottom: 8px;
+}
+
+
+.section-heading p {
+
+    color: #64748b;
+}
+
+
+/* CARDS */
+
+.cards {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+}
+
+
+.place-card {
+
+    background: white;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    border:
+        1px solid #e2e8f0;
+
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+
+.place-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 15px 30px
+        rgba(0,0,0,0.08);
+}
+
+
+/* IMAGE PLACEHOLDER */
+
+.card-placeholder {
+
+    height: 180px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #dbeafe,
+            #eff6ff
+        );
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 55px;
+}
+
+
+.card-placeholder.hotel {
+
+    background:
+        linear-gradient(
+            135deg,
+            #fef3c7,
+            #fff7ed
+        );
+}
+
+
+/* CARD CONTENT */
+
+.card-content {
+
+    padding: 22px;
+}
+
+
+.card-label {
+
+    color: #2563eb;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    text-transform:
+        uppercase;
+}
+
+
+.hotel-label {
+
+    color: #d97706;
+}
+
+
+.card-content h3 {
+
+    font-size: 21px;
+
+    margin:
+        8px 0 10px;
+}
+
+
+.card-content p {
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    min-height: 42px;
+
+    margin-bottom: 20px;
+}
+
+
+/* BUTTON */
+
+.details-button {
+
+    display: inline-block;
+
+    padding: 11px 18px;
+
+    background: #2563eb;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+
+.details-button:hover {
+
+    background: #1d4ed8;
+}
+
+
+/* LOADING */
+
+.loading {
+
+    color: #64748b;
+
+    padding: 20px 0;
+}
+
+
+.empty {
+
+    color: #64748b;
+}
+
+
+.hidden {
+
+    display: none;
+}
+
+
+/* FOOTER */
+
+footer {
+
+    text-align: center;
+
+    padding: 35px;
+
+    background: #0f172a;
+
+    color: #cbd5e1;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 900px) {
+
+    .cards {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .cards {
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .city-header h1 {
+
+        font-size: 38px;
+    }
+
+}
