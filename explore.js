@@ -167,7 +167,7 @@ async function findCity(city) {
       "https://cdn.koreatraveleasy.com/wp-content/uploads/2018/01/06015803/korea-ski-yongpyong-resort-kids-activity-winter.jpg"
     ],
     "Tibet": [
-      "https://i.pinimg.com/736x/a0/6a/a1/a06aa1ea758c149c328db4e1d0943f78--tibet-winter.jpg",
+      "tibet.jpg",
       "https://data.tibettravel.org/assets/images/tour-review/winter-tibet-tour8.jpg",
       "https://www.worldtravelguide.net/wp-content/uploads/2017/03/shu-China-Tibet-PotalaPalace-137112731-1440x823.jpg"
     ]
